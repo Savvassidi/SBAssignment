@@ -1,0 +1,33 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header {
+    font-weight: 700;
+}
+
+.el-date-editor {
+    border-radius: .8rem !important;
+}
+
+/* below "ugly" additions exists due to the fact that chart.js is not listening to boostrap's theme O:) */
+[data-bs-theme="dark"] .available .el-date-table-cell,
+.el-picker-panel__body,
+.el-date-editor,
+.el-range-input {
+    background-color: var(--bs-body-bg) !important;
+    color: var(--bs-body-color) !important;
+}
+
+[data-bs-theme="dark"] .disabled .el-date-table-cell {
+    background-color: var(--bs-body-bg) !important;
+    color: var(--bs-gray) !important;
+}
+
+/* below "ugly" addition exists due to the fact that chart.js has no option to make responsive the popper sadly O:) */
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+    .custom-date-picker-popper {
+        left: 50% !important;
+        transform: translate(-50%, -90px) scale(0.55) !important;
+    }
+}

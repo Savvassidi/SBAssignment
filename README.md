@@ -25,7 +25,7 @@ vue-timeseries-app
 │   │   └── DarkModeToggle.vue   # Basic bootrstrap theme mode (dark or light)
 │   │   └── CustomLegend.vue     # Simple custom legends to remove line chart's ugly ones
 │   ├── router
-│   │   └── index.js             # Main view component
+│   │   └── index.js             # Basic routing from vue-router
 │   ├── views
 │   │   └── Home.vue             # Main view component
 │   ├── App.vue                  # Root Vue component

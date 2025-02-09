@@ -48,7 +48,7 @@ vue-timeseries-app
 2. **Move to the folder**
    ```
    cd SBAssignment
-   ``
+   ```
 
 3. **Install dependencies:**
    ```

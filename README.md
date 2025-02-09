@@ -41,21 +41,29 @@ vue-timeseries-app
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/Savvassidi/StellarBlueAssignment.git
+   git clone https://github.com/Savvassidi/SBAssignment.git
 
    ```
 
-2. **Install dependencies:**
+2. **Move to the folder**
+   ```
+   cd SBAssignment
+   ``
+
+3. **Install dependencies:**
    ```
    npm install
    ```
+   ```
+   npm install express cors fs
+   ```
 
-3. **Run the application:**
+4. **Run the application:**
    ```
    npm run serve           # Custom made to run the server locally also (see package.json)
    ```
 
-4. **Open your browser:**
+5. **Open your browser:**
    Browser should open automatically, if not open it and navigate to `http://localhost:8081` to view the application.
 
 ## Features
